@@ -10,10 +10,22 @@
                     <a class="nav-link" href="http://colyseum.localhost/clients">Exo 1</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://colyseum.localhost/shows">Exo 2</a>
+                    <a class="nav-link" href="http://colyseum.localhost/showstypes">Exo 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Exo 3</a>
+                    <a class="nav-link" href="http://colyseum.localhost/clients/20">Exo 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://colyseum.localhost/clients/fidelity">Exo 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://colyseum.localhost/clients/m">Exo 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://colyseum.localhost/shows">Exo 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://colyseum.localhost/client">Exo 7</a>
                 </li>
             </ul>
         </div>

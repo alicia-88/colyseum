@@ -1,5 +1,5 @@
 <?php ob_start(); ?>
-<?php $title = 'Colyseum Exo 1' ?>
+<?php $title = 'Colyseum Exo 3' ?>
 <section class="py-4 py-xl-5">
     <table class="table">
         <thead>

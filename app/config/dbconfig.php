@@ -15,4 +15,3 @@ define('PASS', $pass);
 define('USER', $user);
 define('OPTS', $opts);
 define('ATTR', $attr);
-var_dump($_ENV);

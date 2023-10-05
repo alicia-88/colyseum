@@ -92,8 +92,9 @@ class Router
     }
     public function dispatchNotFound()
     {
-        var_dump('🎆 error 404');
+        // var_dump('🎆 error 404');
         $this->errorHandlers[404] ??= fn () => "not found";
+        include __DIR__ . '/../views/pages/404.php';
         return $this->errorHandlers[404]();
     }
     public function dispatchError()
@@ -101,6 +102,7 @@ class Router
 
         var_dump('🎆 error 500');
         $this->errorHandlers[500] ??= fn () => "server error";
+        include __DIR__ . '/../views/pages/500.php';
         return $this->errorHandlers[500]();
     }
     public function redirect($path)

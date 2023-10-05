@@ -1,10 +1,9 @@
 <?php ob_start(); ?>
-<?php $title = 'Colyseum Exo 1' ?>
+<?php $title = 'Colyseum Exo 7' ?>
 <section class="py-4 py-xl-5">
     <table class="table">
         <thead>
             <tr>
-                <th scope="col">#</th>
                 <th scope="col">Prénom</th>
                 <th scope="col">Nom</th>
                 <th scope="col">Card</th>
@@ -14,7 +13,6 @@
         <tbody>
             <?php foreach ($clients as $key => $client) { ?>
                 <tr>
-                    <th scope="row"><?= $client->id ?></th>
                     <td><?= $client->firstName ?></td>
                     <td><?= $client->lastName ?></td>
                     <td><?= $client->card ?></td>
